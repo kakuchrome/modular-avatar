@@ -170,11 +170,11 @@
   "validation.merge_armature.target_is_child": "[MA-1500] 合併目標不能是此對象的子級",
   "validation.merge_armature.target_is_child:hint": "Merge Armature 不能合併一個骨架到其自身。請嘗試將「合併目標」設定為其他對象。",
   "submenu_source.Children": "子對象",
-  "submenu_source.MenuAsset": "選單資源文件 (Expressions Menu)",
+  "submenu_source.MenuAsset": "角色控制選單資源 (Expressions Menu)",
   "menuitem.showcontents": "顯示選單內容",
   "menuitem.prop.name": "名稱",
   "menuitem.prop.icon": "圖示",
-  "menuitem.prop.icon.tooltip": "（可選）在選單中顯示的圖示",
+  "menuitem.prop.icon.tooltip": "（可選）在角色控制選單中顯示的圖示",
   "menuitem.prop.type": "類型",
   "menuitem.prop.type.tooltip": "此選單項的類型",
   "menuitem.prop.value": "參數值",
@@ -235,5 +235,9 @@
   "scale_adjuster.scale": "調整比例",
   "scale_adjuster.adjust_children": "調整子集的位置",
   "world_fixed_object.err.unsupported_platform": "此平台不支援 World Fixed Object 元件。",
-  "world_fixed_object.err.unsupported_platform:description": "此元件未生效。因為在 Android 環境下不支援 World Fixed Object。"
+  "world_fixed_object.err.unsupported_platform:description": "此元件未生效。因為在 Android 環境下不支援 World Fixed Object。",
+  "ma_info.param_usage_ui.header": "Expressions 的參數使用狀況",
+  "ma_info.param_usage_ui.other_objects": "此 Avatar 中的其他東西",
+  "ma_info.param_usage_ui.free_space": "未使用的參數空間 ({0} bits)",
+  "ma_info.param_usage_ui.bits_template": "{0} ({1} bits)"
 }
