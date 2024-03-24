@@ -2,5 +2,25 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.かんたんな使い方": {
+    "message": "かんたんな使い方",
+    "description": "The label for category かんたんな使い方 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.コンポーネントの詳細説明": {
+    "message": "コンポーネントの詳細説明",
+    "description": "The label for category コンポーネントの詳細説明 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.アセット配布に関して": {
+    "message": "アセット配布に関して",
+    "description": "The label for category アセット配布に関して in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.壊れたかな？": {
+    "message": "壊れたかな？",
+    "description": "The label for category 壊れたかな？ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Unity 2019 対応について": {
+    "message": "Unity 2019 対応について",
+    "description": "The label for category Unity 2019 対応について in sidebar tutorialSidebar"
   }
 }

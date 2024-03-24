@@ -53,6 +53,11 @@ async function handleEvent(event) {
             resolvedLanguage = 'ja';
             break;
           }
+
+          if (language === 'zh-Hant') {
+            resolvedLanguage = 'zh-Hant';
+            break;
+          }
           
           if (language === 'en' || language.startsWith('en-')) {
             resolvedLanguage = 'en';
@@ -68,6 +73,13 @@ async function handleEvent(event) {
             destination = '/ja/dev' + url.pathname.substring(4);
           } else {
             destination = '/ja' + url.pathname;
+          }
+          break;
+        case 'zh-Hant':
+          if (url.pathname.startsWith('/dev')) {
+            destination = '/za-Hant/dev' + url.pathname.substring(4);
+          } else {
+            destination = '/za-Hant' + url.pathname;
           }
           break;
         default:
